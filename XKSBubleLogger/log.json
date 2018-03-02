@@ -1,0 +1,42 @@
+
+{
+    "className": "XKSCashPayInput",
+    "inputDic": {
+        "needRollback": true,
+        "bizContent": {
+            "receivedAmount": "15.00"
+        },
+        "orderAmount": "15.00",
+        "orderNumber": "170922000901508I0677274",
+        "amount": "15.00",
+        "channel": "CASH",
+        "compatible": true,
+        "orderType": 0,
+        "externalSerial": "P17092216351177351a1364501269"
+    },
+    "viewModelMap": {
+        "logonMemberCard": false,
+        "orderAmount": 15,
+        "deviceRole": 2,
+        "orderTransactionSerial": "",
+        "paidDetailModelMap": {
+            "paidMoney": 0,
+            "lastPaymentType": 0,
+            "isTappedPaymentButton": true,
+            "isPaidFinish": false,
+            "deductionMoney": 0,
+            "needPayMoney": "15.00",
+            "paidMoneyDetailMap": []
+        },
+        "memberDiscount": false,
+        "needRollback": true,
+        "orderNumber": "170922000901508I0677274",
+        "deviceNumber": "CAB10013-4ECC-4033-9E78-4DEAE8B37C70",
+        "vipInfo": "",
+        "backTitleStr": "选座",
+        "exitDataBaseHandler": true,
+        "discountMoney": "0.00",
+        "orderType": 0,
+        "onlineOrder": true
+    }
+}

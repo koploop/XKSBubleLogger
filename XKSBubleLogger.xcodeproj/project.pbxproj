@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC15AD8B201B308900B93638 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15AD8A201B308900B93638 /* AppDelegate.m */; };
+		AC15AD8E201B308900B93638 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15AD8D201B308900B93638 /* ViewController.m */; };
+		AC15AD91201B308900B93638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC15AD8F201B308900B93638 /* Main.storyboard */; };
+		AC15AD96201B308900B93638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC15AD94201B308900B93638 /* LaunchScreen.storyboard */; };
+		AC15AD99201B308900B93638 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15AD98201B308900B93638 /* main.m */; };
+		AC15ADA3201B308900B93638 /* XKSBubleLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADA2201B308900B93638 /* XKSBubleLoggerTests.m */; };
+		AC15ADAE201B308900B93638 /* XKSBubleLoggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADAD201B308900B93638 /* XKSBubleLoggerUITests.m */; };
+		AC15AE00201B319200B93638 /* XKSBubleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADBE201B319200B93638 /* XKSBubleView.m */; };
+		AC15AE01201B319200B93638 /* XKSBubleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADC0201B319200B93638 /* XKSBubleViewController.m */; };
+		AC15AE02201B319200B93638 /* XKSBubleWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADC2201B319200B93638 /* XKSBubleWindow.m */; };
+		AC15AE03201B319200B93638 /* XKSLogBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADC4201B319200B93638 /* XKSLogBadgeView.m */; };
+		AC15AE04201B319200B93638 /* XKSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADC7201B319200B93638 /* XKSLog.m */; };
+		AC15AE05201B319200B93638 /* XKSNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADCA201B319200B93638 /* XKSNotificationObserver.m */; };
+		AC15AE06201B319200B93638 /* XKSNotificationPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADCC201B319200B93638 /* XKSNotificationPoster.m */; };
+		AC15AE08201B319200B93638 /* XKSLogFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADD1201B319200B93638 /* XKSLogFilterViewController.m */; };
+		AC15AE0A201B319200B93638 /* XKSAppInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC15ADD5201B319200B93638 /* XKSAppInfo.storyboard */; };
+		AC15AE0B201B319200B93638 /* XKSLogs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC15ADD6201B319200B93638 /* XKSLogs.storyboard */; };
+		AC15AE0C201B319200B93638 /* XKSMainBuble.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC15ADD7201B319200B93638 /* XKSMainBuble.storyboard */; };
+		AC15AE0D201B319200B93638 /* XKSSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC15ADD8201B319200B93638 /* XKSSetting.storyboard */; };
+		AC15AE0E201B319200B93638 /* XKSBubleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADDB201B319200B93638 /* XKSBubleManager.m */; };
+		AC15AE0F201B319200B93638 /* XKSCrashLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADDD201B319200B93638 /* XKSCrashLogger.m */; };
+		AC15AE10201B319200B93638 /* XKSGeneralLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADDF201B319200B93638 /* XKSGeneralLogger.m */; };
+		AC15AE11201B319200B93638 /* XKSLogSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADE1201B319200B93638 /* XKSLogSetting.m */; };
+		AC15AE12201B319200B93638 /* XKSNetworkLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADE3201B319200B93638 /* XKSNetworkLogger.m */; };
+		AC15AE13201B319200B93638 /* XKSLogListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADE6201B319200B93638 /* XKSLogListDataSource.m */; };
+		AC15AE14201B319200B93638 /* XKSNetworkDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADE8201B319200B93638 /* XKSNetworkDataSource.m */; };
+		AC15AE15201B319200B93638 /* XKSStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADEB201B319200B93638 /* XKSStoreManager.m */; };
+		AC15AE16201B319200B93638 /* XKSAppInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADEE201B319200B93638 /* XKSAppInfoController.m */; };
+		AC15AE18201B319200B93638 /* XKSLogListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADF2201B319200B93638 /* XKSLogListViewController.m */; };
+		AC15AE19201B319200B93638 /* XKSSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADF4201B319200B93638 /* XKSSettingController.m */; };
+		AC15AE1A201B319200B93638 /* XKSTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADF6201B319200B93638 /* XKSTabbarViewController.m */; };
+		AC15AE1B201B319200B93638 /* XKSBubleFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADFA201B319200B93638 /* XKSBubleFunction.m */; };
+		AC15AE1C201B319200B93638 /* UIColor+Buble.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15ADFE201B319200B93638 /* UIColor+Buble.m */; };
+		AC15AE21201B403200B93638 /* XKSLogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15AE1F201B403100B93638 /* XKSLogTableViewCell.m */; };
+		AC15AE22201B403200B93638 /* XKSLogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC15AE20201B403100B93638 /* XKSLogTableViewCell.xib */; };
+		AC15AE26201B407100B93638 /* XKSNetworkListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC15AE24201B407100B93638 /* XKSNetworkListCell.m */; };
+		AC15AE27201B407100B93638 /* XKSNetworkListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC15AE25201B407100B93638 /* XKSNetworkListCell.xib */; };
+		AC533ECA201ECCFE006804BD /* XKSFilterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC533EC8201ECCFE006804BD /* XKSFilterTableViewCell.m */; };
+		AC533ECB201ECCFE006804BD /* XKSFilterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC533EC9201ECCFE006804BD /* XKSFilterTableViewCell.xib */; };
+		AC533ECE201EF992006804BD /* XKSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC533ECD201EF991006804BD /* XKSNavigationController.m */; };
+		AC533EDA20207D16006804BD /* XKSCrashListTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC533ED920207D16006804BD /* XKSCrashListTableController.m */; };
+		AC533EDD20207F05006804BD /* XKSCrashDetailTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC533EDC20207F05006804BD /* XKSCrashDetailTableController.m */; };
+		AC70223A20416109004D8D2A /* log.json in Resources */ = {isa = PBXBuildFile; fileRef = AC70223920416109004D8D2A /* log.json */; };
+		AC9C866B203015E70040E63A /* XKSFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9C866A203015E70040E63A /* XKSFormatter.m */; };
+		ACA286F020283EB10056E4B5 /* XKSNetDetailTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA286EF20283EB10056E4B5 /* XKSNetDetailTableController.m */; };
+		ACA28714202B05180056E4B5 /* XKSBubleImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA28713202B05180056E4B5 /* XKSBubleImages.xcassets */; };
+		ACA28716202B05490056E4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA28715202B05490056E4B5 /* Assets.xcassets */; };
+		ACD5AF122047918A009DDFC7 /* XKSGeneralLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD5AF112047918A009DDFC7 /* XKSGeneralLog.m */; };
+		ACDF10902046917100AC3047 /* XKSRequestProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDF108F2046917100AC3047 /* XKSRequestProtocol.m */; };
+		ACDF10932046934F00AC3047 /* XKSNetworkLog.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDF10922046934F00AC3047 /* XKSNetworkLog.m */; };
+		CC704A52DE39FFCCBCC0187E /* libPods-XKSBubleLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3262CBBB7D430D6197E0A00 /* libPods-XKSBubleLogger.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC15AD9F201B308900B93638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC15AD7E201B308900B93638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC15AD85201B308900B93638;
+			remoteInfo = XKSBubleLogger;
+		};
+		AC15ADAA201B308900B93638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC15AD7E201B308900B93638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC15AD85201B308900B93638;
+			remoteInfo = XKSBubleLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007F36F5882D100455D5FD96 /* Pods-XKSBubleLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKSBubleLogger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKSBubleLogger/Pods-XKSBubleLogger.debug.xcconfig"; sourceTree = "<group>"; };
+		72C7F0D93A545EC3C8482107 /* Pods-XKSBubleLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKSBubleLogger.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKSBubleLogger/Pods-XKSBubleLogger.release.xcconfig"; sourceTree = "<group>"; };
+		AC15AD86201B308900B93638 /* XKSBubleLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKSBubleLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC15AD89201B308900B93638 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC15AD8A201B308900B93638 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC15AD8C201B308900B93638 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC15AD8D201B308900B93638 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC15AD90201B308900B93638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC15AD95201B308900B93638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC15AD97201B308900B93638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC15AD98201B308900B93638 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC15AD9E201B308900B93638 /* XKSBubleLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKSBubleLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC15ADA2201B308900B93638 /* XKSBubleLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSBubleLoggerTests.m; sourceTree = "<group>"; };
+		AC15ADA4201B308900B93638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC15ADA9201B308900B93638 /* XKSBubleLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XKSBubleLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC15ADAD201B308900B93638 /* XKSBubleLoggerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSBubleLoggerUITests.m; sourceTree = "<group>"; };
+		AC15ADAF201B308900B93638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC15ADBD201B319200B93638 /* XKSBubleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSBubleView.h; sourceTree = "<group>"; };
+		AC15ADBE201B319200B93638 /* XKSBubleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSBubleView.m; sourceTree = "<group>"; };
+		AC15ADBF201B319200B93638 /* XKSBubleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSBubleViewController.h; sourceTree = "<group>"; };
+		AC15ADC0201B319200B93638 /* XKSBubleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSBubleViewController.m; sourceTree = "<group>"; };
+		AC15ADC1201B319200B93638 /* XKSBubleWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSBubleWindow.h; sourceTree = "<group>"; };
+		AC15ADC2201B319200B93638 /* XKSBubleWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSBubleWindow.m; sourceTree = "<group>"; };
+		AC15ADC3201B319200B93638 /* XKSLogBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSLogBadgeView.h; sourceTree = "<group>"; };
+		AC15ADC4201B319200B93638 /* XKSLogBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSLogBadgeView.m; sourceTree = "<group>"; };
+		AC15ADC6201B319200B93638 /* XKSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSLog.h; sourceTree = "<group>"; };
+		AC15ADC7201B319200B93638 /* XKSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSLog.m; sourceTree = "<group>"; };
+		AC15ADC8201B319200B93638 /* XKSLogNotificationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSLogNotificationProtocol.h; sourceTree = "<group>"; };
+		AC15ADC9201B319200B93638 /* XKSNotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSNotificationObserver.h; sourceTree = "<group>"; };
+		AC15ADCA201B319200B93638 /* XKSNotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSNotificationObserver.m; sourceTree = "<group>"; };
+		AC15ADCB201B319200B93638 /* XKSNotificationPoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSNotificationPoster.h; sourceTree = "<group>"; };
+		AC15ADCC201B319200B93638 /* XKSNotificationPoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSNotificationPoster.m; sourceTree = "<group>"; };
+		AC15ADD0201B319200B93638 /* XKSLogFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSLogFilterViewController.h; sourceTree = "<group>"; };
+		AC15ADD1201B319200B93638 /* XKSLogFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSLogFilterViewController.m; sourceTree = "<group>"; };
+		AC15ADD5201B319200B93638 /* XKSAppInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XKSAppInfo.storyboard; sourceTree = "<group>"; };
+		AC15ADD6201B319200B93638 /* XKSLogs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XKSLogs.storyboard; sourceTree = "<group>"; };
+		AC15ADD7201B319200B93638 /* XKSMainBuble.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XKSMainBuble.storyboard; sourceTree = "<group>"; };
+		AC15ADD8201B319200B93638 /* XKSSetting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XKSSetting.storyboard; sourceTree = "<group>"; };
+		AC15ADDA201B319200B93638 /* XKSBubleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSBubleManager.h; sourceTree = "<group>"; };
+		AC15ADDB201B319200B93638 /* XKSBubleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSBubleManager.m; sourceTree = "<group>"; };
+		AC15ADDC201B319200B93638 /* XKSCrashLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSCrashLogger.h; sourceTree = "<group>"; };
+		AC15ADDD201B319200B93638 /* XKSCrashLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSCrashLogger.m; sourceTree = "<group>"; };
+		AC15ADDE201B319200B93638 /* XKSGeneralLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSGeneralLogger.h; sourceTree = "<group>"; };
+		AC15ADDF201B319200B93638 /* XKSGeneralLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSGeneralLogger.m; sourceTree = "<group>"; };
+		AC15ADE0201B319200B93638 /* XKSLogSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSLogSetting.h; sourceTree = "<group>"; };
+		AC15ADE1201B319200B93638 /* XKSLogSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSLogSetting.m; sourceTree = "<group>"; };
+		AC15ADE2201B319200B93638 /* XKSNetworkLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSNetworkLogger.h; sourceTree = "<group>"; };
+		AC15ADE3201B319200B93638 /* XKSNetworkLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSNetworkLogger.m; sourceTree = "<group>"; };
+		AC15ADE5201B319200B93638 /* XKSLogListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSLogListDataSource.h; sourceTree = "<group>"; };
+		AC15ADE6201B319200B93638 /* XKSLogListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSLogListDataSource.m; sourceTree = "<group>"; };
+		AC15ADE7201B319200B93638 /* XKSNetworkDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSNetworkDataSource.h; sourceTree = "<group>"; };
+		AC15ADE8201B319200B93638 /* XKSNetworkDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSNetworkDataSource.m; sourceTree = "<group>"; };
+		AC15ADEA201B319200B93638 /* XKSStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSStoreManager.h; sourceTree = "<group>"; };
+		AC15ADEB201B319200B93638 /* XKSStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSStoreManager.m; sourceTree = "<group>"; };
+		AC15ADED201B319200B93638 /* XKSAppInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSAppInfoController.h; sourceTree = "<group>"; };
+		AC15ADEE201B319200B93638 /* XKSAppInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSAppInfoController.m; sourceTree = "<group>"; };
+		AC15ADF1201B319200B93638 /* XKSLogListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSLogListViewController.h; sourceTree = "<group>"; };
+		AC15ADF2201B319200B93638 /* XKSLogListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSLogListViewController.m; sourceTree = "<group>"; };
+		AC15ADF3201B319200B93638 /* XKSSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSSettingController.h; sourceTree = "<group>"; };
+		AC15ADF4201B319200B93638 /* XKSSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSSettingController.m; sourceTree = "<group>"; };
+		AC15ADF5201B319200B93638 /* XKSTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSTabbarViewController.h; sourceTree = "<group>"; };
+		AC15ADF6201B319200B93638 /* XKSTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSTabbarViewController.m; sourceTree = "<group>"; };
+		AC15ADF9201B319200B93638 /* XKSBubleFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSBubleFunction.h; sourceTree = "<group>"; };
+		AC15ADFA201B319200B93638 /* XKSBubleFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKSBubleFunction.m; sourceTree = "<group>"; };
+		AC15ADFB201B319200B93638 /* XKSBubleMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSBubleMacro.h; sourceTree = "<group>"; };
+		AC15ADFD201B319200B93638 /* UIColor+Buble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Buble.h"; sourceTree = "<group>"; };
+		AC15ADFE201B319200B93638 /* UIColor+Buble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Buble.m"; sourceTree = "<group>"; };
+		AC15ADFF201B319200B93638 /* XKSBubleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKSBubleLogger.h; sourceTree = "<group>"; };
+		AC15AE1E201B403100B93638 /* XKSLogTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSLogTableViewCell.h; sourceTree = "<group>"; };
+		AC15AE1F201B403100B93638 /* XKSLogTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSLogTableViewCell.m; sourceTree = "<group>"; };
+		AC15AE20201B403100B93638 /* XKSLogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XKSLogTableViewCell.xib; sourceTree = "<group>"; };
+		AC15AE23201B407100B93638 /* XKSNetworkListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSNetworkListCell.h; sourceTree = "<group>"; };
+		AC15AE24201B407100B93638 /* XKSNetworkListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSNetworkListCell.m; sourceTree = "<group>"; };
+		AC15AE25201B407100B93638 /* XKSNetworkListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XKSNetworkListCell.xib; sourceTree = "<group>"; };
+		AC533EC7201ECCFE006804BD /* XKSFilterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSFilterTableViewCell.h; sourceTree = "<group>"; };
+		AC533EC8201ECCFE006804BD /* XKSFilterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSFilterTableViewCell.m; sourceTree = "<group>"; };
+		AC533EC9201ECCFE006804BD /* XKSFilterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XKSFilterTableViewCell.xib; sourceTree = "<group>"; };
+		AC533ECC201EF991006804BD /* XKSNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSNavigationController.h; sourceTree = "<group>"; };
+		AC533ECD201EF991006804BD /* XKSNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSNavigationController.m; sourceTree = "<group>"; };
+		AC533ED820207D16006804BD /* XKSCrashListTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSCrashListTableController.h; sourceTree = "<group>"; };
+		AC533ED920207D16006804BD /* XKSCrashListTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSCrashListTableController.m; sourceTree = "<group>"; };
+		AC533EDB20207F05006804BD /* XKSCrashDetailTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSCrashDetailTableController.h; sourceTree = "<group>"; };
+		AC533EDC20207F05006804BD /* XKSCrashDetailTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSCrashDetailTableController.m; sourceTree = "<group>"; };
+		AC70223920416109004D8D2A /* log.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = log.json; sourceTree = "<group>"; };
+		AC9C8669203015E70040E63A /* XKSFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSFormatter.h; sourceTree = "<group>"; };
+		AC9C866A203015E70040E63A /* XKSFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSFormatter.m; sourceTree = "<group>"; };
+		AC9C866F203041C50040E63A /* XKSLoggerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSLoggerProtocol.h; sourceTree = "<group>"; };
+		ACA286EE20283EB10056E4B5 /* XKSNetDetailTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSNetDetailTableController.h; sourceTree = "<group>"; };
+		ACA286EF20283EB10056E4B5 /* XKSNetDetailTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSNetDetailTableController.m; sourceTree = "<group>"; };
+		ACA28713202B05180056E4B5 /* XKSBubleImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = XKSBubleImages.xcassets; sourceTree = "<group>"; };
+		ACA28715202B05490056E4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD5AF102047918A009DDFC7 /* XKSGeneralLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSGeneralLog.h; sourceTree = "<group>"; };
+		ACD5AF112047918A009DDFC7 /* XKSGeneralLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSGeneralLog.m; sourceTree = "<group>"; };
+		ACDF108E2046917100AC3047 /* XKSRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSRequestProtocol.h; sourceTree = "<group>"; };
+		ACDF108F2046917100AC3047 /* XKSRequestProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSRequestProtocol.m; sourceTree = "<group>"; };
+		ACDF10912046934F00AC3047 /* XKSNetworkLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XKSNetworkLog.h; sourceTree = "<group>"; };
+		ACDF10922046934F00AC3047 /* XKSNetworkLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XKSNetworkLog.m; sourceTree = "<group>"; };
+		E3262CBBB7D430D6197E0A00 /* libPods-XKSBubleLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKSBubleLogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC15AD83201B308900B93638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC704A52DE39FFCCBCC0187E /* libPods-XKSBubleLogger.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC15AD9B201B308900B93638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC15ADA6201B308900B93638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC14C39476877296C97CC36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3262CBBB7D430D6197E0A00 /* libPods-XKSBubleLogger.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EFD1498E3796E2385B7C35E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				007F36F5882D100455D5FD96 /* Pods-XKSBubleLogger.debug.xcconfig */,
+				72C7F0D93A545EC3C8482107 /* Pods-XKSBubleLogger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC15AD7D201B308900B93638 = {
+			isa = PBXGroup;
+			children = (
+				AC15ADBB201B319200B93638 /* BubleLogger */,
+				AC15AD88201B308900B93638 /* XKSBubleLogger */,
+				AC15ADA1201B308900B93638 /* XKSBubleLoggerTests */,
+				AC15ADAC201B308900B93638 /* XKSBubleLoggerUITests */,
+				AC15AD87201B308900B93638 /* Products */,
+				8EFD1498E3796E2385B7C35E /* Pods */,
+				0DC14C39476877296C97CC36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC15AD87201B308900B93638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC15AD86201B308900B93638 /* XKSBubleLogger.app */,
+				AC15AD9E201B308900B93638 /* XKSBubleLoggerTests.xctest */,
+				AC15ADA9201B308900B93638 /* XKSBubleLoggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC15AD88201B308900B93638 /* XKSBubleLogger */ = {
+			isa = PBXGroup;
+			children = (
+				AC70223920416109004D8D2A /* log.json */,
+				ACA28715202B05490056E4B5 /* Assets.xcassets */,
+				AC15AD89201B308900B93638 /* AppDelegate.h */,
+				AC15AD8A201B308900B93638 /* AppDelegate.m */,
+				AC15AD8C201B308900B93638 /* ViewController.h */,
+				AC15AD8D201B308900B93638 /* ViewController.m */,
+				AC15AD8F201B308900B93638 /* Main.storyboard */,
+				AC15AD94201B308900B93638 /* LaunchScreen.storyboard */,
+				AC15AD97201B308900B93638 /* Info.plist */,
+				AC15AD98201B308900B93638 /* main.m */,
+			);
+			path = XKSBubleLogger;
+			sourceTree = "<group>";
+		};
+		AC15ADA1201B308900B93638 /* XKSBubleLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADA2201B308900B93638 /* XKSBubleLoggerTests.m */,
+				AC15ADA4201B308900B93638 /* Info.plist */,
+			);
+			path = XKSBubleLoggerTests;
+			sourceTree = "<group>";
+		};
+		AC15ADAC201B308900B93638 /* XKSBubleLoggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADAD201B308900B93638 /* XKSBubleLoggerUITests.m */,
+				AC15ADAF201B308900B93638 /* Info.plist */,
+			);
+			path = XKSBubleLoggerUITests;
+			sourceTree = "<group>";
+		};
+		AC15ADBB201B319200B93638 /* BubleLogger */ = {
+			isa = PBXGroup;
+			children = (
+				ACA286F12029A4440056E4B5 /* Images */,
+				AC15AE1D201B3EED00B93638 /* Views */,
+				AC15ADBC201B319200B93638 /* BubleViewController */,
+				AC15ADC5201B319200B93638 /* LogHandle */,
+				AC15ADCD201B319200B93638 /* LogViewController */,
+				AC15ADD4201B319200B93638 /* Main */,
+				AC15ADD9201B319200B93638 /* Manager */,
+				AC15ADE4201B319200B93638 /* Model */,
+				AC15ADE9201B319200B93638 /* Store */,
+				AC15ADEC201B319200B93638 /* Tabbar */,
+				AC15ADF7201B319200B93638 /* XKSCommon */,
+			);
+			path = BubleLogger;
+			sourceTree = "<group>";
+		};
+		AC15ADBC201B319200B93638 /* BubleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADBD201B319200B93638 /* XKSBubleView.h */,
+				AC15ADBE201B319200B93638 /* XKSBubleView.m */,
+				AC15ADBF201B319200B93638 /* XKSBubleViewController.h */,
+				AC15ADC0201B319200B93638 /* XKSBubleViewController.m */,
+				AC15ADC1201B319200B93638 /* XKSBubleWindow.h */,
+				AC15ADC2201B319200B93638 /* XKSBubleWindow.m */,
+				AC15ADC3201B319200B93638 /* XKSLogBadgeView.h */,
+				AC15ADC4201B319200B93638 /* XKSLogBadgeView.m */,
+			);
+			path = BubleViewController;
+			sourceTree = "<group>";
+		};
+		AC15ADC5201B319200B93638 /* LogHandle */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADC8201B319200B93638 /* XKSLogNotificationProtocol.h */,
+				AC15ADC9201B319200B93638 /* XKSNotificationObserver.h */,
+				AC15ADCA201B319200B93638 /* XKSNotificationObserver.m */,
+				AC15ADCB201B319200B93638 /* XKSNotificationPoster.h */,
+				AC15ADCC201B319200B93638 /* XKSNotificationPoster.m */,
+				AC9C8669203015E70040E63A /* XKSFormatter.h */,
+				AC9C866A203015E70040E63A /* XKSFormatter.m */,
+			);
+			path = LogHandle;
+			sourceTree = "<group>";
+		};
+		AC15ADCD201B319200B93638 /* LogViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADD0201B319200B93638 /* XKSLogFilterViewController.h */,
+				AC15ADD1201B319200B93638 /* XKSLogFilterViewController.m */,
+				AC533ED820207D16006804BD /* XKSCrashListTableController.h */,
+				AC533ED920207D16006804BD /* XKSCrashListTableController.m */,
+				AC533EDB20207F05006804BD /* XKSCrashDetailTableController.h */,
+				AC533EDC20207F05006804BD /* XKSCrashDetailTableController.m */,
+				ACA286EE20283EB10056E4B5 /* XKSNetDetailTableController.h */,
+				ACA286EF20283EB10056E4B5 /* XKSNetDetailTableController.m */,
+			);
+			path = LogViewController;
+			sourceTree = "<group>";
+		};
+		AC15ADD4201B319200B93638 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADD5201B319200B93638 /* XKSAppInfo.storyboard */,
+				AC15ADD6201B319200B93638 /* XKSLogs.storyboard */,
+				AC15ADD7201B319200B93638 /* XKSMainBuble.storyboard */,
+				AC15ADD8201B319200B93638 /* XKSSetting.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AC15ADD9201B319200B93638 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADDA201B319200B93638 /* XKSBubleManager.h */,
+				AC15ADDB201B319200B93638 /* XKSBubleManager.m */,
+				AC15ADDC201B319200B93638 /* XKSCrashLogger.h */,
+				AC15ADDD201B319200B93638 /* XKSCrashLogger.m */,
+				AC15ADDE201B319200B93638 /* XKSGeneralLogger.h */,
+				AC15ADDF201B319200B93638 /* XKSGeneralLogger.m */,
+				AC15ADE0201B319200B93638 /* XKSLogSetting.h */,
+				AC15ADE1201B319200B93638 /* XKSLogSetting.m */,
+				AC15ADE2201B319200B93638 /* XKSNetworkLogger.h */,
+				AC15ADE3201B319200B93638 /* XKSNetworkLogger.m */,
+				ACDF108E2046917100AC3047 /* XKSRequestProtocol.h */,
+				ACDF108F2046917100AC3047 /* XKSRequestProtocol.m */,
+				AC9C866F203041C50040E63A /* XKSLoggerProtocol.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		AC15ADE4201B319200B93638 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADC6201B319200B93638 /* XKSLog.h */,
+				AC15ADC7201B319200B93638 /* XKSLog.m */,
+				ACD5AF102047918A009DDFC7 /* XKSGeneralLog.h */,
+				ACD5AF112047918A009DDFC7 /* XKSGeneralLog.m */,
+				ACDF10912046934F00AC3047 /* XKSNetworkLog.h */,
+				ACDF10922046934F00AC3047 /* XKSNetworkLog.m */,
+				AC15ADE5201B319200B93638 /* XKSLogListDataSource.h */,
+				AC15ADE6201B319200B93638 /* XKSLogListDataSource.m */,
+				AC15ADE7201B319200B93638 /* XKSNetworkDataSource.h */,
+				AC15ADE8201B319200B93638 /* XKSNetworkDataSource.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC15ADE9201B319200B93638 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADEA201B319200B93638 /* XKSStoreManager.h */,
+				AC15ADEB201B319200B93638 /* XKSStoreManager.m */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		AC15ADEC201B319200B93638 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADED201B319200B93638 /* XKSAppInfoController.h */,
+				AC15ADEE201B319200B93638 /* XKSAppInfoController.m */,
+				AC15ADF1201B319200B93638 /* XKSLogListViewController.h */,
+				AC15ADF2201B319200B93638 /* XKSLogListViewController.m */,
+				AC15ADF3201B319200B93638 /* XKSSettingController.h */,
+				AC15ADF4201B319200B93638 /* XKSSettingController.m */,
+				AC15ADF5201B319200B93638 /* XKSTabbarViewController.h */,
+				AC15ADF6201B319200B93638 /* XKSTabbarViewController.m */,
+				AC533ECC201EF991006804BD /* XKSNavigationController.h */,
+				AC533ECD201EF991006804BD /* XKSNavigationController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		AC15ADF7201B319200B93638 /* XKSCommon */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADF8201B319200B93638 /* Common */,
+				AC15ADFC201B319200B93638 /* Extension */,
+				AC15ADFF201B319200B93638 /* XKSBubleLogger.h */,
+			);
+			path = XKSCommon;
+			sourceTree = "<group>";
+		};
+		AC15ADF8201B319200B93638 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADF9201B319200B93638 /* XKSBubleFunction.h */,
+				AC15ADFA201B319200B93638 /* XKSBubleFunction.m */,
+				AC15ADFB201B319200B93638 /* XKSBubleMacro.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AC15ADFC201B319200B93638 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AC15ADFD201B319200B93638 /* UIColor+Buble.h */,
+				AC15ADFE201B319200B93638 /* UIColor+Buble.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AC15AE1D201B3EED00B93638 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC15AE1E201B403100B93638 /* XKSLogTableViewCell.h */,
+				AC15AE1F201B403100B93638 /* XKSLogTableViewCell.m */,
+				AC15AE20201B403100B93638 /* XKSLogTableViewCell.xib */,
+				AC15AE23201B407100B93638 /* XKSNetworkListCell.h */,
+				AC15AE24201B407100B93638 /* XKSNetworkListCell.m */,
+				AC15AE25201B407100B93638 /* XKSNetworkListCell.xib */,
+				AC533EC7201ECCFE006804BD /* XKSFilterTableViewCell.h */,
+				AC533EC8201ECCFE006804BD /* XKSFilterTableViewCell.m */,
+				AC533EC9201ECCFE006804BD /* XKSFilterTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACA286F12029A4440056E4B5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACA28713202B05180056E4B5 /* XKSBubleImages.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC15AD85201B308900B93638 /* XKSBubleLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC15ADB2201B308900B93638 /* Build configuration list for PBXNativeTarget "XKSBubleLogger" */;
+			buildPhases = (
+				76431E083E5DF7DBDF9A88E3 /* [CP] Check Pods Manifest.lock */,
+				AC15AD82201B308900B93638 /* Sources */,
+				AC15AD83201B308900B93638 /* Frameworks */,
+				AC15AD84201B308900B93638 /* Resources */,
+				44F338FA5A1F1239707C30BF /* [CP] Embed Pods Frameworks */,
+				8E4CB451E6ADE27250391CA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKSBubleLogger;
+			productName = XKSBubleLogger;
+			productReference = AC15AD86201B308900B93638 /* XKSBubleLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC15AD9D201B308900B93638 /* XKSBubleLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC15ADB5201B308900B93638 /* Build configuration list for PBXNativeTarget "XKSBubleLoggerTests" */;
+			buildPhases = (
+				AC15AD9A201B308900B93638 /* Sources */,
+				AC15AD9B201B308900B93638 /* Frameworks */,
+				AC15AD9C201B308900B93638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC15ADA0201B308900B93638 /* PBXTargetDependency */,
+			);
+			name = XKSBubleLoggerTests;
+			productName = XKSBubleLoggerTests;
+			productReference = AC15AD9E201B308900B93638 /* XKSBubleLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC15ADA8201B308900B93638 /* XKSBubleLoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC15ADB8201B308900B93638 /* Build configuration list for PBXNativeTarget "XKSBubleLoggerUITests" */;
+			buildPhases = (
+				AC15ADA5201B308900B93638 /* Sources */,
+				AC15ADA6201B308900B93638 /* Frameworks */,
+				AC15ADA7201B308900B93638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC15ADAB201B308900B93638 /* PBXTargetDependency */,
+			);
+			name = XKSBubleLoggerUITests;
+			productName = XKSBubleLoggerUITests;
+			productReference = AC15ADA9201B308900B93638 /* XKSBubleLoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC15AD7E201B308900B93638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Mario;
+				TargetAttributes = {
+					AC15AD85201B308900B93638 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC15AD9D201B308900B93638 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC15AD85201B308900B93638;
+					};
+					AC15ADA8201B308900B93638 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC15AD85201B308900B93638;
+					};
+				};
+			};
+			buildConfigurationList = AC15AD81201B308900B93638 /* Build configuration list for PBXProject "XKSBubleLogger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC15AD7D201B308900B93638;
+			productRefGroup = AC15AD87201B308900B93638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC15AD85201B308900B93638 /* XKSBubleLogger */,
+				AC15AD9D201B308900B93638 /* XKSBubleLoggerTests */,
+				AC15ADA8201B308900B93638 /* XKSBubleLoggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC15AD84201B308900B93638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC15AD96201B308900B93638 /* LaunchScreen.storyboard in Resources */,
+				AC15AD91201B308900B93638 /* Main.storyboard in Resources */,
+				AC70223A20416109004D8D2A /* log.json in Resources */,
+				ACA28716202B05490056E4B5 /* Assets.xcassets in Resources */,
+				AC15AE22201B403200B93638 /* XKSLogTableViewCell.xib in Resources */,
+				AC533ECB201ECCFE006804BD /* XKSFilterTableViewCell.xib in Resources */,
+				AC15AE27201B407100B93638 /* XKSNetworkListCell.xib in Resources */,
+				AC15AE0A201B319200B93638 /* XKSAppInfo.storyboard in Resources */,
+				AC15AE0B201B319200B93638 /* XKSLogs.storyboard in Resources */,
+				AC15AE0D201B319200B93638 /* XKSSetting.storyboard in Resources */,
+				AC15AE0C201B319200B93638 /* XKSMainBuble.storyboard in Resources */,
+				ACA28714202B05180056E4B5 /* XKSBubleImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC15AD9C201B308900B93638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC15ADA7201B308900B93638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44F338FA5A1F1239707C30BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XKSBubleLogger/Pods-XKSBubleLogger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76431E083E5DF7DBDF9A88E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XKSBubleLogger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E4CB451E6ADE27250391CA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XKSBubleLogger/Pods-XKSBubleLogger-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/XKSCommonSDK/XKSCommonSDK.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XKSBubleLogger/Pods-XKSBubleLogger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC15AD82201B308900B93638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC533EDD20207F05006804BD /* XKSCrashDetailTableController.m in Sources */,
+				AC15AE08201B319200B93638 /* XKSLogFilterViewController.m in Sources */,
+				ACDF10902046917100AC3047 /* XKSRequestProtocol.m in Sources */,
+				AC533ECE201EF992006804BD /* XKSNavigationController.m in Sources */,
+				AC15AE00201B319200B93638 /* XKSBubleView.m in Sources */,
+				AC15AD8E201B308900B93638 /* ViewController.m in Sources */,
+				AC15AE16201B319200B93638 /* XKSAppInfoController.m in Sources */,
+				ACDF10932046934F00AC3047 /* XKSNetworkLog.m in Sources */,
+				ACD5AF122047918A009DDFC7 /* XKSGeneralLog.m in Sources */,
+				AC15AE0E201B319200B93638 /* XKSBubleManager.m in Sources */,
+				AC15AD99201B308900B93638 /* main.m in Sources */,
+				AC15AE18201B319200B93638 /* XKSLogListViewController.m in Sources */,
+				AC15AE04201B319200B93638 /* XKSLog.m in Sources */,
+				AC15AE14201B319200B93638 /* XKSNetworkDataSource.m in Sources */,
+				AC15AE10201B319200B93638 /* XKSGeneralLogger.m in Sources */,
+				AC15AE26201B407100B93638 /* XKSNetworkListCell.m in Sources */,
+				AC533ECA201ECCFE006804BD /* XKSFilterTableViewCell.m in Sources */,
+				AC15AE11201B319200B93638 /* XKSLogSetting.m in Sources */,
+				AC15AE0F201B319200B93638 /* XKSCrashLogger.m in Sources */,
+				AC15AD8B201B308900B93638 /* AppDelegate.m in Sources */,
+				AC9C866B203015E70040E63A /* XKSFormatter.m in Sources */,
+				AC15AE1A201B319200B93638 /* XKSTabbarViewController.m in Sources */,
+				AC15AE1C201B319200B93638 /* UIColor+Buble.m in Sources */,
+				AC533EDA20207D16006804BD /* XKSCrashListTableController.m in Sources */,
+				ACA286F020283EB10056E4B5 /* XKSNetDetailTableController.m in Sources */,
+				AC15AE21201B403200B93638 /* XKSLogTableViewCell.m in Sources */,
+				AC15AE1B201B319200B93638 /* XKSBubleFunction.m in Sources */,
+				AC15AE03201B319200B93638 /* XKSLogBadgeView.m in Sources */,
+				AC15AE05201B319200B93638 /* XKSNotificationObserver.m in Sources */,
+				AC15AE01201B319200B93638 /* XKSBubleViewController.m in Sources */,
+				AC15AE13201B319200B93638 /* XKSLogListDataSource.m in Sources */,
+				AC15AE06201B319200B93638 /* XKSNotificationPoster.m in Sources */,
+				AC15AE19201B319200B93638 /* XKSSettingController.m in Sources */,
+				AC15AE02201B319200B93638 /* XKSBubleWindow.m in Sources */,
+				AC15AE12201B319200B93638 /* XKSNetworkLogger.m in Sources */,
+				AC15AE15201B319200B93638 /* XKSStoreManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC15AD9A201B308900B93638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC15ADA3201B308900B93638 /* XKSBubleLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC15ADA5201B308900B93638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC15ADAE201B308900B93638 /* XKSBubleLoggerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC15ADA0201B308900B93638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC15AD85201B308900B93638 /* XKSBubleLogger */;
+			targetProxy = AC15AD9F201B308900B93638 /* PBXContainerItemProxy */;
+		};
+		AC15ADAB201B308900B93638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC15AD85201B308900B93638 /* XKSBubleLogger */;
+			targetProxy = AC15ADAA201B308900B93638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC15AD8F201B308900B93638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC15AD90201B308900B93638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC15AD94201B308900B93638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC15AD95201B308900B93638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC15ADB0201B308900B93638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC15ADB1201B308900B93638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC15ADB3201B308900B93638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 007F36F5882D100455D5FD96 /* Pods-XKSBubleLogger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6F9N4WUT7;
+				INFOPLIST_FILE = XKSBubleLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SuperMario.XKSBubleLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC15ADB4201B308900B93638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C7F0D93A545EC3C8482107 /* Pods-XKSBubleLogger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6F9N4WUT7;
+				INFOPLIST_FILE = XKSBubleLogger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SuperMario.XKSBubleLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC15ADB6201B308900B93638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6F9N4WUT7;
+				INFOPLIST_FILE = XKSBubleLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SuperMario.XKSBubleLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XKSBubleLogger.app/XKSBubleLogger";
+			};
+			name = Debug;
+		};
+		AC15ADB7201B308900B93638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6F9N4WUT7;
+				INFOPLIST_FILE = XKSBubleLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SuperMario.XKSBubleLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XKSBubleLogger.app/XKSBubleLogger";
+			};
+			name = Release;
+		};
+		AC15ADB9201B308900B93638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6F9N4WUT7;
+				INFOPLIST_FILE = XKSBubleLoggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SuperMario.XKSBubleLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XKSBubleLogger;
+			};
+			name = Debug;
+		};
+		AC15ADBA201B308900B93638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6F9N4WUT7;
+				INFOPLIST_FILE = XKSBubleLoggerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SuperMario.XKSBubleLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XKSBubleLogger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC15AD81201B308900B93638 /* Build configuration list for PBXProject "XKSBubleLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC15ADB0201B308900B93638 /* Debug */,
+				AC15ADB1201B308900B93638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC15ADB2201B308900B93638 /* Build configuration list for PBXNativeTarget "XKSBubleLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC15ADB3201B308900B93638 /* Debug */,
+				AC15ADB4201B308900B93638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC15ADB5201B308900B93638 /* Build configuration list for PBXNativeTarget "XKSBubleLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC15ADB6201B308900B93638 /* Debug */,
+				AC15ADB7201B308900B93638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC15ADB8201B308900B93638 /* Build configuration list for PBXNativeTarget "XKSBubleLoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC15ADB9201B308900B93638 /* Debug */,
+				AC15ADBA201B308900B93638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC15AD7E201B308900B93638 /* Project object */;
+}
